@@ -26,5 +26,4 @@ NeoBundleCheck
 colorscheme Tomorrow-Night-Bright
 syntax on
 
-"set runtimepath^=~/.vim/bundle/ctrlp.vim
 
