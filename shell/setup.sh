@@ -19,7 +19,7 @@ git clone git://github.com/Shougo/neobundle.vim
 #set symbolic link
 echo 'set symbolic link'
 cd ~
-ln -s ~/dotfile/.vimrc ~/.vimrc
-ln -s ~/dotfile/.bashrc ~/.bashrc
-ln -s ~/dotfile/.git-prompt.sh ~/.git-prompt.sh
-ln -s ~/dotfile/.git-completion.bash ~/.git-completiom.bash
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+ln -s ~/dotfiles/.bashrc ~/.bashrc
+ln -s ~/dotfiles/.git-prompt.sh ~/.git-prompt.sh
+ln -s ~/dotfiles/.git-completion.bash ~/.git-completiom.bash
