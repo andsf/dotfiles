@@ -23,6 +23,7 @@ call neobundle#end()
 filetype plugin indent on
 NeoBundleCheck
 
+set runtimepath+=~/.vim/bundle/vim-tomorrow-theme/colors/Tomorrow-Night-Bright.vim
 colorscheme Tomorrow-Night-Bright
 syntax on
 
