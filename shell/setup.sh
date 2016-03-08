@@ -13,5 +13,3 @@ fi
 ##NeoBundle install
 git clone git://github.com/Shougo/neobundle.vim
 
-## copy colors directory
-cd -r -p ~/.vim/bundle/vim-tomorrow-theme/colors ~/.vim/colors
