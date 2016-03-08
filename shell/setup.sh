@@ -1,6 +1,8 @@
 #! /bin/sh
 
-#check directory and move directory
+#vim setup
+
+##check directory and move directory
 if [ -e ~/.vim/bundle ]; then
  cd ~/.vim/bundle
 else
@@ -8,6 +10,6 @@ else
  cd ~/.vim/bundle
 fi
 
-#NeoBundle install
+##NeoBundle install
 git clone git://github.com/Shougo/neobundle.vim
 
