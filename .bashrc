@@ -24,4 +24,4 @@ if [ -f /etc/bashrc ]; then
 fi
 
 #ディレクトリ色分け
-#export LSCOLORS=gxfxcxdxbxegedabagacad
+export LSCOLORS=gxfxcxdxbxegedabagacad
