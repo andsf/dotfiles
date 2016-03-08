@@ -13,8 +13,7 @@ PS1='[\[\033[32m\]andsf@mac\[\033[0m\]][\[\033[33m\]\w\[\033[0m\]]\[\033[36m\]$(
 
 #コマンドエイリアス
 alias ls='ls -G'
-alias ll='ls -la'
-alias grep='grep'
+alias ll='ls -l'
 
 #ディレクトリ色分け
 export LSCOLORS=gxfxcxdxbxegedabagacad
