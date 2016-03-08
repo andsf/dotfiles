@@ -22,4 +22,4 @@ cd ~
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.bashrc ~/.bashrc
 ln -s ~/dotfiles/.git-prompt.sh ~/.git-prompt.sh
-ln -s ~/dotfiles/.git-completion.bash ~/.git-completiom.bash
+ln -s ~/dotfiles/.git-completion.bash ~/.git-completion.bash
