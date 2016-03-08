@@ -8,7 +8,7 @@ set backspace=indent,eol,start
 set noswapfile
 set cursorline
 set ignorecase
-
+set encoding=utf-8
 
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 

@@ -15,7 +15,7 @@ PS1='[\[\033[32m\]andsf@mac\[\033[0m\]][\[\033[33m\]\w\[\033[0m\]]\[\033[36m\]$(
 
 #コマンドエイリアス
 alias ls='ls -G --color'
-alias ll='ls -la --color'
+alias ll='ls -l --color'
 alias grep='grep --color'
 
 #ource global definitions
