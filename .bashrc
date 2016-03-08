@@ -1,5 +1,9 @@
 # .bashrc
 
+if [ -e /usr/share/terminfo/x/xterm-256color ]; then
+    export TERM='xterm-256color'
+fi
+
 source $HOME/.git-prompt.sh
 source $HOME/.git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
