@@ -22,6 +22,3 @@ alias grep='grep --color'
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
-
-#ディレクトリ色分け
-export LSCOLORS=gxfxcxdxbxegedabagacad
