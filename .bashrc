@@ -15,13 +15,10 @@ PS1='[\[\033[32m\]andsf@\h\[\033[0m\]][\[\033[33m\]\w\[\033[0m\]]\[\033[36m\]$(_
 
 #コマンドエイリアス
 alias ls='ls -G --color'
-alias ll='ls -la --color'
+alias ll='ls -l --color'
 alias grep='grep --color'
 
 #ource global definitions
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
 fi
-
-#ディレクトリ色分け
-export LSCOLORS=gxfxcxdxbxegedabagacad
