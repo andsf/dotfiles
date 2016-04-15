@@ -3,23 +3,29 @@
 #vim setup
 
 ##check directory and move directory
-echo 'check directory'
+echo 'check .vim directory'
 if [ -e ~/.vim/bundle ]; then
-  echo 'exit directory'
-  cd ~/.vim/bundle
+  echo 'exit .vim directory'
 else
   mkdir -p ~/.vim/bundle
-  cd ~/.vim/bundle
 fi
 
-##NeoBundle install
-echo 'NeoBundle install'
-git clone git://github.com/Shougo/neobundle.vim
+echo 'check NeoBundle'
+##NeoBundle installi
+if [ -f ~/.vim/bundle/NeoBundle.vim ]; then
+  echo 'exit NeoBundle'
+else
+	echo 'start NeoBundle install'
+	cd ~/.vim/bundle
+	git clone git://github.com/Shougo/neobundle.vim
+	echo 'completion NeoBundle install'
+fi
 
 #set symbolic link
 echo 'set symbolic link'
 cd ~
 
+## check file and symbolic link to remove
 for file in ".vimrc" ".bashrc" ".git-prompt.sh" ".git-completion.bash"
 do
 	if [ -f ~/$file ]; then
@@ -33,3 +39,5 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.bashrc ~/.bashrc
 ln -s ~/dotfiles/.git-prompt.sh ~/.git-prompt.sh
 ln -s ~/dotfiles/.git-completion.bash ~/.git-completion.bash
+
+echo 'completion symbolic link'
