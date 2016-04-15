@@ -5,15 +5,15 @@
 ##check directory and move directory
 echo 'check .vim directory'
 if [ -e ~/.vim/bundle ]; then
-  echo 'exit .vim directory'
+  echo 'exist .vim directory'
 else
   mkdir -p ~/.vim/bundle
 fi
 
 echo 'check NeoBundle'
 ##NeoBundle installi
-if [ -f ~/.vim/bundle/neoBundle.vim ]; then
-  echo 'exit NeoBundle'
+if [ -e ~/.vim/bundle/neobundle.vim ]; then
+  echo 'exist NeoBundle'
 else
 	echo 'start NeoBundle install'
 	cd ~/.vim/bundle
