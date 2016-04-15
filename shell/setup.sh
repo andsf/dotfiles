@@ -12,7 +12,7 @@ fi
 
 echo 'check NeoBundle'
 ##NeoBundle installi
-if [ -f ~/.vim/bundle/NeoBundle.vim ]; then
+if [ -f ~/.vim/bundle/neoBundle.vim ]; then
   echo 'exit NeoBundle'
 else
 	echo 'start NeoBundle install'
