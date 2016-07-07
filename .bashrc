@@ -17,3 +17,6 @@ alias ll='ls -l'
 
 #ディレクトリ色分け
 export LSCOLORS=gxfxcxdxbxegedabagacad
+
+#php70のパス設定
+export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
