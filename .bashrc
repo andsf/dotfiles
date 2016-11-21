@@ -15,13 +15,13 @@ GIT_PS1_SHOWDIRTYSTATE=true
 
 function check_shell {
   if [ $? -eq 0 -o $? -eq 148 ]; then
-    face="\e[32m(*'ｰ') < "
+    face="\e[32m(*'-') < "
   else
     face="\e[34m(*._.) < "
   fi 
   echo -e "${face}\e[m"
 }
-PS1='\[\033[36m\]$(__git_ps1)\[\033[0m\] \[\[\033[33m\]\W\[\033[0m\] $(check_shell)'
+PS1='\[\033[36m\]$(__git_ps1)\[\033[0m\] \[\033[33m\]\W\[\033[0m\] $(check_shell)'
 
 
 #コマンドエイリアス
