@@ -14,7 +14,7 @@ GIT_PS1_SHOWDIRTYSTATE=true
 #PS1='[\[\033[32m\]andsf@\h\[\033[0m\]][\[\033[33m\]\w\[\033[0m\]]\[\033[36m\]$(__git_ps1)\[\033[0m\]\n >>> '
 
 function check_shell {
-  if [ $? -eq 0 -o $? -eq 148 ]; then
+  if [ $? -eq 0 -o $? -eq 148 -o $? -eq 130 ]; then
     face="\e[32m(*'-') < "
   else
     face="\e[34m(*._.) < "
