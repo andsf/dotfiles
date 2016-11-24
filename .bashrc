@@ -13,9 +13,9 @@ GIT_PS1_SHOWDIRTYSTATE=true
 
 function check_shell {
   if [ $? -eq 0 -o $? -eq 146 ]; then
-    face="\033[32m(*'-') < "
+    face="\033[32m(///_^) < "
   else
-    face="\033[34m(*._.) < "
+    face="\033[34m(///_T) < "
   fi
   echo -e "${face}\033[0m"
 }
