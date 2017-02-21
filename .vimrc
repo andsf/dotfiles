@@ -11,7 +11,6 @@ set ignorecase
 set encoding=utf-8
 
 set runtimepath+=~/.vim/bundle/neobundle.vim/
-
 call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
@@ -26,5 +25,3 @@ NeoBundleCheck
 set runtimepath+=~/.vim/bundle/vim-tomorrow-theme/colors/Tomorrow-Night-Bright.vim
 colorscheme Tomorrow-Night-Bright
 syntax on
-
-
