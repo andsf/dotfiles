@@ -1,0 +1,7 @@
+set main-view = id date author:email-user commit-title:graph=yes,refs=yes
+set vertical-split = no
+set line-graphics = utf-8
+set ignore-case = true
+set split-view-height = 80%
+set mouse = true
+
